@@ -21,7 +21,7 @@ import (
 
 var AllUsers = filepath.Join(programFiles(), `Roblox\Versions`)
 var CurrentUser = filepath.Join(localAppData(), `Roblox\Versions`)
-var Executables = []string{"RobloxPlayerBeta.exe"}
+var Executables = []string{"RobloxPlayerBeta2.exe"}
 
 func localAppData() string {
 	lappdata := os.Getenv("LOCALAPPDATA")
